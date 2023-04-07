@@ -27,7 +27,7 @@ THEN I can save initials and my score.
 ```
 
 ## **Mock-Up Image** 
-![]()
+![Technical code quiz mockup image](assets/Technical-Code-Quiz-Mockup.png)
 </br></br>
 
 ## **Deployed Application**
