@@ -9,7 +9,7 @@ let answerC = document.getElementById("answerC");
 let answerD = document.getElementById("answerD");
 let initialsForm = document.getElementById("initialsForm");
 let scoreSection = document.getElementById("scoreSection");
-let initials = document.getElementById("initials");
+let initials = document.getElementById("initials"); //initials
 let endMenu= document.getElementById("endMenu");
 // 1. create an array for questions
 var questions = [
@@ -38,7 +38,7 @@ var questions = [
         answer:"d",
     },
     {
-        q:"Is JavaScript a case sensitive language?", //question 4 has 2 extra bubbles
+        q:"Is JavaScript a case sensitive language?", 
         a:"Yes", 
         b:"No",
         c:"Nes",
@@ -54,20 +54,36 @@ var questions = [
         answer:"c",
     },
     {
-        q:"",
-        a:"",
-        b:"",
-        c:"",
-        d:"",
-        answer:"",
+        q:"What does Concat() do?",
+        a:"It changes an object into a string",
+        b:"It joins two or more strings",
+        c:"It separates a string into two objects",
+        d:"It is a very comical cat",
+        answer:"b",
     },
     {
-        q:"",
-        a:"",
-        b:"",
-        c:"",
-        d:"",
-        answer:"",
+        q:"What does pop() do?",
+        a:"It removes the last element from an array and returns that element",
+        b:"It removes the first element from an array and returns that element",
+        c:"It only removes the first element from an array",
+        d:"None of the above",
+        answer:"a",
+    },
+    {
+        q:"What is NOT one of the ways to define a variable in JavaScript?",
+        a:"var",
+        b:"let",
+        c:"def",
+        d:"const",
+        answer:"c",
+    },
+    {
+        q:"What is the result of 2+5+''3''?",
+        a:"10",
+        b:"73",
+        c:"21",
+        d:"4",
+        answer:"b",
     },
 ];
 
@@ -88,7 +104,7 @@ function renderPageLoad () {
 }
 
 function runQuiz () {
-    if(questionCount === 5 || timerCount<= 0) { // change questions count from 3 whenever I write more questions.
+    if(questionCount === 9 || timerCount<= 0) { // change questions count whenever I write more questions.
         return endQuiz();
     }
     timer.textContent = "Time: " + timerCount;
@@ -126,7 +142,7 @@ function startTimer () {
 function manageSelectionA () {
     if (questions[questionCount].answer === "a") {
         questionCount++;
-        score+= 10;
+        score+= 1;
         console.log("Correct!")
     }else {
         console.log("Incorrect");
@@ -175,7 +191,7 @@ answerA.addEventListener("click", manageSelectionA);
 answerB.addEventListener("click", manageSelectionB);
 answerC.addEventListener("click", manageSelectionC);
 answerD.addEventListener("click", manageSelectionD);
-// 6. When finished, end quiz and provide an input for user to enter initials
+// 6. When finished, end quiz and provide an input for user to enter name
 function endQuiz () {
     quizSection.style = "display: none";
     endMenu.style = "display: flex";
@@ -185,7 +201,7 @@ function endQuiz () {
 function saveScore(e) {
     e.preventDefault();
     newScore = {
-        user: initials.value,
+        user: initials.value, 
         userScore: score,
     };
     storedUsers.push(newScore); 
