@@ -5,9 +5,29 @@ body {
     margin: 0px;
 }
 
-#Menu {
+#Menu, #endMenu {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10pt;
+    background-color: rgb(235, 254, 93);
+}
+
+button:hover {
+    background-color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+
+#quizSection, #quiz, #scoresPage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
