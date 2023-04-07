@@ -38,20 +38,20 @@ var questions = [
         answer:"d",
     },
     {
-        q:"",
-        a:"", 
-        b:"",
-        c:"",
-        d:"",
-        answer:"",
+        q:"Is JavaScript a case sensitive language?", //question 4 has 2 extra bubbles
+        a:"Yes", 
+        b:"No",
+        c:"Nes",
+        d:"What is JavaScript..",
+        answer:"a",
     },
     {
-        q:"",
-        a:"",
-        b:"",
-        c:"",
-        d:"",
-        answer:"",
+        q:"What are the scopes of a variable in JavaScript?",
+        a:"Native Scope & Global Scope",
+        b:"Native Scope & Foreign Scope",
+        c:"Global Scope & Local Scope",
+        d:"Local Scope & Foreign Scope",
+        answer:"c",
     },
     {
         q:"",
@@ -72,7 +72,7 @@ var questions = [
 ];
 
 score = 0;
-timerCount = 10;
+timerCount = 60;
 questionCount = 0;
 let storedUsers;
 
@@ -88,7 +88,7 @@ function renderPageLoad () {
 }
 
 function runQuiz () {
-    if(questionCount === 3 || timerCount<= 0) { // change questions count from 3 whenever I write more questions.
+    if(questionCount === 5 || timerCount<= 0) { // change questions count from 3 whenever I write more questions.
         return endQuiz();
     }
     timer.textContent = "Time: " + timerCount;
