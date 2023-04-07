@@ -85,6 +85,14 @@ var questions = [
         d:"4",
         answer:"b",
     },
+    {
+        q:"What is the result of 3+2+''7''?",
+        a:"12",
+        b:"55",
+        c:"56",
+        d:"57",
+        answer:"d",
+    },
 ];
 
 score = 0;
@@ -104,7 +112,7 @@ function renderPageLoad () {
 }
 
 function runQuiz () {
-    if(questionCount === 9 || timerCount<= 0) { // change questions count whenever I write more questions.
+    if(questionCount === 10 || timerCount<= 0) { // change questions count whenever I write more questions.
         return endQuiz();
     }
     timer.textContent = "Time: " + timerCount;
@@ -142,7 +150,7 @@ function startTimer () {
 function manageSelectionA () {
     if (questions[questionCount].answer === "a") {
         questionCount++;
-        score+= 1;
+        score+= 10;
         console.log("Correct!")
     }else {
         console.log("Incorrect");
