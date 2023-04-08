@@ -17,7 +17,7 @@ var questions = [
         q: "A string is indicated by which of the following?",
         a: "A) { } Curly brackets",
         b: "B) [ ] Square brackets", 
-        c: "C) Quotation marks",
+        c: "C) ''''Quotation marks",
         d: "D) ! Exclamation marks",
         answer: "c",
     },
