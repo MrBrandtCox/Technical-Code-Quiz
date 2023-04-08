@@ -32,7 +32,7 @@ THEN I can save initials and my score.
 </br></br>
 
 ## **Deployed Application**
-- 
+- https://mrbrandtcox.github.io/Technical-Code-Quiz/
 </br></br>
 
 ## **License** 
