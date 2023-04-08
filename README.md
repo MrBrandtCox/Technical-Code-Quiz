@@ -27,6 +27,7 @@ THEN I can save initials and my score.
 ```
 
 ## **Mock-Up Image** 
+![Technical code quiz mockup img](assets/Technical-Code-Quiz-Mockup-2.png)
 ![Technical code quiz mockup image](assets/Technical-Code-Quiz-Mockup.png)
 </br></br>
 

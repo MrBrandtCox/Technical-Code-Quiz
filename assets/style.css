@@ -1,6 +1,6 @@
 body {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(96,88,255);
+    background: linear-gradient(0deg, rgba(96,88,255,1) 0%, rgba(168,168,168,1) 100%);
     height: 100vh;
     margin: 0px;
 }
@@ -16,7 +16,7 @@ body {
     justify-content: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    font-weight: 500;
+    font-weight:bold;
 }
 
 button {
