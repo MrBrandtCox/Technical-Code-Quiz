@@ -30,7 +30,9 @@ button {
 
 button:hover {
     font-weight: bold;
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(225, 225, 225);
+    border-color:blueviolet;
+    color:blueviolet;
     cursor: pointer;
     transform: scale(1.1);
 }
