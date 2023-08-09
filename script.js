@@ -30,11 +30,11 @@ var questions = [
         answer:"b",
     },
     {
-        q:"The element selector ul is an abbreviation for which of the following?",
-        a:"A) Unused listener",
-        b:"B) Unfortunate layer",
-        c:"C) Unusually loud",
-        d:"D) Unordered list",
+        q:"What's the difference between == and === operators?",
+        a:"A) The difference is just one equal sign =",
+        b:"B) == double checks a value while === triple checks a value",
+        c:"C) == compares values AND types while === compares values",
+        d:"D) == compares values while === compares values AND types",
         answer:"d",
     },
     {
@@ -58,7 +58,7 @@ var questions = [
         a:"It changes an object into a string",
         b:"It joins two or more strings",
         c:"It separates a string into two objects",
-        d:"It is a very comical cat",
+        d:"It is a mischievous con cat",
         answer:"b",
     },
     {
@@ -70,12 +70,12 @@ var questions = [
         answer:"a",
     },
     {
-        q:"What is NOT one of the ways to define a variable in JavaScript?",
+        q:"Which of these would you use to declare a blocked scope variable in JavaScript?",
         a:"var",
         b:"let",
         c:"def",
         d:"const",
-        answer:"c",
+        answer:"b",
     },
     {
         q:"What is the result of 2+5+''3''?",
