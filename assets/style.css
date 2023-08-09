@@ -31,8 +31,8 @@ button {
 button:hover {
     font-weight: bold;
     background-color: rgb(225, 225, 225);
-    border-color:blueviolet;
-    color:blueviolet;
+    border-color:rgb(0, 64, 255);
+    color:rgb(0, 64, 255);
     cursor: pointer;
     transform: scale(1.1);
 }
