@@ -1,6 +1,6 @@
 body {
-    background: rgb(96,88,255);
-    background: linear-gradient(0deg, rgba(96,88,255,1) 0%, rgba(168,168,168,1) 100%);
+    background: rgb(160,187,251);
+    background: linear-gradient(0deg, rgba(160,187,251,1) 0%, rgba(255,255,255,1) 100%);
     height: 100vh;
     margin: 0px;
 }
@@ -25,13 +25,14 @@ button {
     margin: 20px;
     padding: 20px;
     border-radius: 10pt;
-    background-color: rgb(235, 254, 93);
+    background-color: rgb(255, 255, 255);
 }
 
 button:hover {
     font-weight: bold;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(181, 181, 181);
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 #quizSection, #quiz, #scoresPage {
