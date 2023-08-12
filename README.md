@@ -2,7 +2,7 @@
 
 
 ## **Description**
-- This technical quiz is made to give you, the user, practice reviewing several technical coding questions about JavaScript you may encounter in your next position interview. This quiz is made up of multiple choice questions, and it will be timed, so no time to be googling for answers. </br> </br> </br>
+This technical quiz is made to give you, the user, practice reviewing several technical coding questions about JavaScript you may encounter in your next position interview. This quiz is made up of multiple choice questions, and it will be timed, so no time to be googling for answers. </br> </br> </br>
 
 ## **User Story**
 ```
@@ -32,8 +32,8 @@ THEN I can save initials and my score.
 </br></br>
 
 ## **Deployed Application**
-- https://mrbrandtcox.github.io/Technical-Code-Quiz/
+https://mrbrandtcox.github.io/Technical-Code-Quiz/
 </br></br>
 
 ## **License** 
-- [MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
