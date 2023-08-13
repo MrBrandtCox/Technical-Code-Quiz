@@ -1,4 +1,5 @@
 body {
+    display: flex;
     background: rgb(160,187,251);
     background: linear-gradient(0deg, rgba(160,187,251,1) 0%, rgba(255,255,255,1) 100%);
     height: 100vh;
@@ -13,13 +14,21 @@ body {
 }
 
 #header {
+    display: flex;
     justify-content: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-weight:bold;
+    /* margin-left: 270px; */
+    /* width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; */
 }
 
 button {
+    display: flex;
     font-family: monospace;
     font-size: 15px;
     margin: 20px;
@@ -37,6 +46,10 @@ button:hover {
     transform: scale(1.1);
 }
 
+a{
+    text-decoration: none;
+}
+
 #quizSection, #quiz, #scoresPage {
     height: 100%;
     display: flex;
@@ -48,4 +61,48 @@ button:hover {
 #question {
     font-size: 30px;
     font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+/*Media Queries----min-width for mobile first, max-width for desktop first applications*/ 
+
+/*XS*/
+@media screen and (min-width: 475px) {
+    header{
+        max-width: 475px;
+    }
+}
+
+/*SM*/
+@media screen and (min-width: 640px) {
+    header{
+        max-width: 640px;
+    }
+}
+
+/*MD*/
+@media screen and (min-width: 768px) {
+    header{
+        max-width: 768px;
+    }
+}
+
+/*LG*/
+@media screen and (min-width: 1024px) {
+    header{
+        max-width: 1024px;
+    }
+}
+
+/*XL*/
+@media screen and (min-width: 1280px) {
+    header{
+        max-width: 1280px
+    }
+}
+
+/*XXL*/
+@media screen and (min-width: 1536px) {
+    header{
+        max-width: 1536px;
+    }
 }
